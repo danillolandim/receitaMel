@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    background-color: rgb(170, 71, 1);
+    color: white;
+}
+
+main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.receitaWrapper{
+  display: flex;
+  gap: 10px;
+
+}
+
+.receita h2, h3, ul{
+    margin: 20px 0;
+}
+
+img:nth-child(3){
+    width: 600px;
+   
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(241, 129, 10);
+}
+
+footer{
+    background-size: 100%;
+    background-color: rgb(170, 71, 1);
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: rgb(218, 214, 214);
+}
